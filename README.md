@@ -13,5 +13,7 @@ I walk you through different types of tokens/ words that commonly occur in a doc
 4) **Word split with wordninja** - Sometimes words are merged, or have an irrelevant character between them. Eg- handnwash needs to be corrected to hand and wash. Similarly cheesepizza needs to be corrected to cheese and pizza.
 
 **Installation**
+
 pip install wordninja
+
 pip install pyspellchecker
