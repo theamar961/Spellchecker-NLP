@@ -1,6 +1,6 @@
 # Spellchecker-NLP
 
-Implemented functions to correct spelling mistakes in a document. There is no right way to perform spell checking and is totally dependent on the corpus or the vocabulary you have with you. The order in which you call these functions matters too.
+Implemented functions to correct spelling mistakes in a document. There is no right way to perform spell checking and is totally dependent on the corpus or the vocabulary you have with you. 
 
 I walk you through different types of tokens/ words that commonly occur in a document.
 
