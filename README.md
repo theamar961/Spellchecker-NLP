@@ -2,11 +2,11 @@
 
 Implemented functions to correct spelling mistakes in a document. There is no right way to perform spell checking and is totally dependent on the corpus or the vocabulary you have with you. 
 
-I walk you through different types of tokens/ words that commonly occur in a document.
+I walk you through different types of words/tokens that may require a spell correction in a document.
 
 1) **Named entities** - These are tokens which represent a Organization, Place, Person or a Cardinal. These tokens shouldn't be pre-processed or spell-checked. Hence it is important to do Named Entity Recognition(NER) and seperate them.
 
-2) **pyspellchecker** - This is a package in python that tells you if there is an error in spelling with spell.unknown and tries to correct the spelling on its own with spell.correction.
+2) **pyspellchecker** - This is a package in python that tells you if there is an error in spelling with spell.unknown and tries to correct the spelling on its own with spell.correction. Based on the words present in the corpus of this library, spelling errors are matched and corrected if present.
 
 3) **Recurring character token**- These tokens occur more frequently than you expect, for Eg- Birthdayyyyyyyy needs to be corrected to Birthday. A simple ReGex can be used to solve this issue.
 
